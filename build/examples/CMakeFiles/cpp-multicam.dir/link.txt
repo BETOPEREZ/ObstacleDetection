@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mfpu=neon -mfloat-abi=hard -ftree-vectorize -std=c++11   CMakeFiles/cpp-multicam.dir/cpp-multicam.cpp.o  -o cpp-multicam -rdynamic ../librealsense.so.1.12.1 -lGLU -lGL -lm -lglfw -lusb-1.0 -lpthread -Wl,-rpath,/home/odroid/Documents/ProjectsGit/librealsense/build: 

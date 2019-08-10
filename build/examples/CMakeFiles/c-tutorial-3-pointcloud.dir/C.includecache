@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/librealsense/rs.h
+
+../include/librealsense/rsutil.h
+rs.h
+../include/librealsense/rs.h
+assert.h
+../include/librealsense/assert.h
+
+/home/odroid/Documents/ProjectsGit/librealsense/examples/c-tutorial-3-pointcloud.c
+librealsense/rs.h
+-
+stdlib.h
+-
+stdint.h
+-
+stdio.h
+-
+math.h
+-
+librealsense/rsutil.h
+-
+GLFW/glfw3.h
+-
+

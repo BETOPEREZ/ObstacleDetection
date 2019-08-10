@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/librealsense/rs.h
+
+/home/odroid/Documents/ProjectsGit/librealsense/examples/c-tutorial-1-depth.c
+librealsense/rs.h
+-
+stdlib.h
+-
+stdint.h
+-
+stdio.h
+-
+

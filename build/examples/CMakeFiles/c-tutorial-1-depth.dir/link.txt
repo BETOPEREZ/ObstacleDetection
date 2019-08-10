@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mfpu=neon -mfloat-abi=hard -ftree-vectorize   CMakeFiles/c-tutorial-1-depth.dir/c-tutorial-1-depth.c.o  -o c-tutorial-1-depth -rdynamic ../librealsense.so.1.12.1 -lGLU -lGL -lm -lglfw -lusb-1.0 -lpthread -Wl,-rpath,/home/odroid/Documents/ProjectsGit/librealsense/build: 
